@@ -17,3 +17,5 @@ __pycache__/
 
 # Configurações sensíveis (senhas de banco, etc.)
 .env
+
+.idea/
