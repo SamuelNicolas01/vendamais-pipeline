@@ -154,3 +154,54 @@ print("Linhas em revisão (preço nulo):", len(df_ecommerce_revisao_preco))
 print("Linhas em revisão (produto nulo):", len(df_ecommerce_revisao_produto))
 print("Linhas em revisão (status inválido):", len(df_ecommerce_revisao_status))
 print("Linhas em revisão (quantidade inválida):", len(df_ecommerce_revisao_invalidos))
+
+df_lojas_padronizado = df_lojas.rename(columns={
+    "data_venda": "data",
+    "cidade": "local"
+})
+df_lojas_padronizado["canal"] = "loja"
+
+df_ecommerce_padronizado = df_ecommerce.rename(columns={
+    "venda_id": "id_venda",
+    "regiao": "local"
+})
+df_ecommerce_padronizado["canal"] = "ecommerce"
+
+df_vendas = pd.concat([df_lojas_padronizado, df_ecommerce_padronizado], ignore_index=True)
+
+# Coluna faturamento preco_unitario * quantidade
+df_vendas["faturamento"] = df_vendas["quantidade"] * df_vendas["preco_unitario"]
+print("\nColuna faturamento criada:")
+print(df_vendas[["produto", "quantidade", "preco_unitario", "faturamento"]].head(10))
+faturamento_total = df_vendas["faturamento"].sum()
+print("\nFaturamento total:", faturamento_total)
+
+# Ticket Médio
+ticket_medio = faturamento_total / len(df_vendas)
+print("\nTICKET MÉDIO\n")
+print(ticket_medio)
+
+# Vendas por produto
+vendas_por_produto = df_vendas.groupby("produto")["faturamento"].sum()
+print("\nFaturamento por produto:\n")
+print(vendas_por_produto.sort_values(ascending=False))
+
+# Vendas por Região / Cidade
+vendas_por_local = df_vendas.groupby("local")["faturamento"].sum()
+print("\nFaturamento por local:")
+print(vendas_por_local.sort_values(ascending=False))
+
+df_vendas["data"] = pd.to_datetime(df_vendas["data"])#Padronizar a data entre as tabelas
+print("\nTipo da coluna data, após unificação:", df_vendas["data"].dtype) #Verificar se deu bom
+
+# Vendas por dia
+vendas_por_dia = df_vendas.groupby("data")["faturamento"].sum()
+print("\nFaturamento por dia:")
+print(vendas_por_dia.sort_index())
+
+print("\n=== VENDAS UNIFICADAS ===")
+print(df_vendas.info())
+print("\nValores nulos por coluna (alguns são esperados, por diferença de estrutura):")
+print(df_vendas.isnull().sum())
+print("\nTotal de linhas unificadas:\n", len(df_vendas))
+print(df_vendas)
