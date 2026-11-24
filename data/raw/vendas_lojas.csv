@@ -1,0 +1,40 @@
+id_venda,data_venda,produto,categoria,quantidade,preco_unitario,cidade,loja_id
+1,2026-01-05,Notebook Gamer X15,Eletrônicos,1,4599.90,São Paulo,101
+2,2026-01-05,Mouse sem fio,Eletrônicos,3,89.90,Rio de Janeiro,102
+3,2026-01-05,Cadeira Gamer,Móveis,1,1299.00,São Paulo,101
+4,2026-01-06,Fone Bluetooth,eletronicos,2,199.90,belo horizonte,103
+5,2026-01-06,Teclado Mecânico,Eletrônicos,1,"349,90",São Paulo,101
+6,06/01/2026,Monitor 24,Eletrônicos,1,899.00,Curitiba,104
+7,2026-01-06,Smartphone Z20,Eletrônicos,1,2799.00,Porto Alegre,105
+8,2026-01-07,Câmera Web HD,Eletrônicos,2,,Rio de Janeiro,102
+9,2026-01-07,Headset Pro,Eletrônicos,1,259.90,Salvador,106
+10,2026-01-07,Impressora Multifuncional,Eletrônicos,1,"R$ 699,90",Recife,107
+11,2026/01/07,Caixa de Som Bluetooth,Eletrônicos,2,229.90,Fortaleza,108
+12,2026-01-08,Carregador Portátil,Eletrônicos,0,99.90,São Paulo,101
+13,2026-01-08,Smartwatch Fit,Eletrônicos,1,599.90,Rio de Janeiro,102
+14,2026-01-08,Tablet 10,Eletrônicos,1,1499.00,Belo Horizonte,103
+15,2026-01-08,Roteador Wifi6,Eletrônicos,2,349.00,Curitiba,104
+16,2026-01-08,Roteador Wifi6,Eletrônicos,2,349.00,Curitiba,104
+17,08/01/2026,Notebook Gamer X15,Eletrônicos,1,4599.90,Porto Alegre,105
+18,2026-01-09,Mouse sem fio,ELETRÔNICOS ,5,89.90,Salvador,106
+19,2026-01-09,Cadeira Gamer,Móveis,1,1299.00,,107
+20,2026-01-09,Fone Bluetooth,Eletrônicos,3,199.90,Fortaleza,108
+21,2026-01-09,Teclado Mecânico,Eletrônicos,2,349.90,São Paulo,101
+22,2026-01-10,Monitor 24,Eletrônicos,1,899.00,Rio de Janeiro,102
+23,2026-01-10,Smartphone Z20,Eletrônicos,2,2799.00,Belo Horizonte,103
+24,10/01/2026,Câmera Web HD,Eletrônicos,1,159.90,Curitiba,104
+25,2026-01-10,Headset Pro,Eletrônicos,2,259.90,Porto Alegre,105
+26,2026-01-11,Impressora Multifuncional,Eletrônicos,1,699.90,Salvador,106
+27,2026-01-11,Caixa de Som Bluetooth,Eletrônicos,-2,229.90,Recife,107
+28,2026-01-11,Carregador Portátil,Eletrônicos,3,99.90,Fortaleza,108
+29,2026-01-11,Smartwatch Fit,Eletrônicos,1,599.90,São Paulo,101
+30,2026-01-12,Tablet 10,,1,1499.00,Rio de Janeiro,102
+31,12/01/2026,Roteador Wifi6,Eletrônicos,1,349.00,Belo Horizonte,103
+32,2026-01-12,Notebook Gamer X15,Eletrônicos,1,4599.90,Curitiba,104
+33,2026-01-12,Mouse sem fio,Eletrônicos,2,-89.90,Porto Alegre,105
+34,2026-01-13,Cadeira Gamer,Móveis,1,1299.00,Salvador,106
+35,2026-01-13,Fone Bluetooth,eletronicos,2,199.90, São Paulo ,101
+36,2026-01-13,Teclado Mecânico,Eletrônicos,1,349.90,Rio de Janeiro,102
+37,2026-01-13,Monitor 24,Eletrônicos,2,899.00,Belo Horizonte,103
+38,2026-01-14,Smartphone Z20,Eletrônicos,1,2799.00,Curitiba,104
+22,2026-01-10,Monitor 24,Eletrônicos,3,899.00,Rio de Janeiro,102

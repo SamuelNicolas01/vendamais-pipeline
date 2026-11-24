@@ -1,0 +1,23 @@
+[
+  {"venda_id": 5001, "data": "2026-01-05T14:32:00", "produto": "Fone Bluetooth", "quantidade": 1, "preco_unitario": 199.90, "regiao": "Sudeste", "cliente_email": "ana.silva@email.com", "status": "concluida"},
+  {"venda_id": 5002, "data": "2026-01-05", "produto": "Carregador Portátil", "quantidade": 2, "preco_unitario": "99.90", "regiao": "sul", "cliente_email": "joao.pereira@email.com", "status": "concluida"},
+  {"venda_id": 5003, "data": "2026-01-06T09:15:00", "produto": "Smartwatch Fit", "quantidade": 1, "preco_unitario": 599.90, "regiao": "Sul", "cliente_email": "maria.oliveira@email.com", "status": "cancelada"},
+  {"venda_id": 5004, "data": "2026-01-06", "produto": "Tablet 10", "quantidade": 1, "preco_unitario": null, "regiao": "Nordeste", "cliente_email": "carlos.souza@email.com", "status": "concluida"},
+  {"venda_id": 5005, "data": "2026-01-06T18:40:00", "produto": "Roteador Wifi6", "quantidade": 1, "preco_unitario": 349.00, "regiao": "SUL", "cliente_email": "fernanda.lima@email.com", "status": "pendente"},
+  {"venda_id": 5006, "data": "2026-01-07", "produto": null, "quantidade": 1, "preco_unitario": 89.90, "regiao": "Sudeste", "cliente_email": "rafael.costa@email.com", "status": "concluida"},
+  {"venda_id": 5007, "data": "2026-01-07T11:05:00", "produto": "Câmera Web HD", "quantidade": -1, "preco_unitario": 159.90, "regiao": "Norte", "cliente_email": "juliana.alves@email.com", "status": "concluida"},
+  {"venda_id": 5008, "data": "2026-01-07", "produto": "Headset Pro", "quantidade": 2, "preco_unitario": 259.90, "regiao": "Centro-Oeste", "cliente_email": null, "status": "concluida"},
+  {"venda_id": 5009, "data": "2026-01-08T20:22:00", "produto": "Impressora Multifuncional", "quantidade": 1, "preco_unitario": 699.90, "regiao": "Sudeste", "cliente_email": "bruno.martins@email.com", "status": "concluida"},
+  {"venda_id": 5010, "data": "2026-01-08", "produto": "Caixa de Som Bluetooth", "quantidade": 3, "preco_unitario": 229.90, "regiao": "sudeste", "cliente_email": "patricia.rocha@email.com", "status": "concluida"},
+  {"venda_id": 5011, "data": "2026-01-09T08:10:00", "produto": "Mouse sem fio", "quantidade": 2, "preco_unitario": 89.90, "regiao": "Nordeste", "cliente_email": "diego.fernandes@email.com", "status": "cancelada"},
+  {"venda_id": 5012, "data": "2026-01-09", "produto": "Teclado Mecânico", "quantidade": 1, "preco_unitario": 349.90, "regiao": "Sul", "cliente_email": "camila.barbosa@email.com", "status": "desconhecido"},
+  {"venda_id": 5013, "data": "2026-01-09T16:48:00", "produto": "Monitor 24", "quantidade": 1, "preco_unitario": 899.00, "regiao": "Sudeste", "cliente_email": "eduardo.gomes@email.com", "status": "concluida"},
+  {"venda_id": 5014, "data": "2026-01-10", "produto": "Smartphone Z20", "quantidade": 1, "preco_unitario": 2799.00, "regiao": "Norte", "cliente_email": "larissa.dias@email.com", "status": "pendente"},
+  {"venda_id": 5015, "data": "2026-01-10T13:27:00", "produto": "Notebook Gamer X15", "quantidade": 1, "preco_unitario": 4599.90, "regiao": "Sudeste", "cliente_email": "thiago.ribeiro@email.com", "status": "concluida"},
+  {"venda_id": 5016, "data": "2026-01-11", "produto": "Cadeira Gamer", "quantidade": 1, "preco_unitario": 1299.00, "regiao": "Centro-Oeste", "cliente_email": "vanessa.cardoso@email.com", "status": "concluida"},
+  {"venda_id": 5017, "data": "2026-01-11T10:05:00", "produto": "Fone Bluetooth", "quantidade": 2, "preco_unitario": 199.90, "regiao": "Nordeste", "cliente_email": "gustavo.teixeira@email.com", "status": "concluida"},
+  {"venda_id": 5018, "data": "2026-01-12", "produto": "Carregador Portátil", "quantidade": 1, "preco_unitario": 99.90, "regiao": "Sul", "cliente_email": "beatriz.nunes@email.com", "status": "concluida"},
+  {"venda_id": 5019, "data": "2026-01-12T19:33:00", "produto": "Smartwatch Fit", "quantidade": 1, "preco_unitario": 599.90, "regiao": "Sudeste", "cliente_email": "leonardo.moura@email.com", "status": "cancelada"},
+  {"venda_id": 5011, "data": "2026-01-09T08:10:00", "produto": "Mouse sem fio", "quantidade": 2, "preco_unitario": 89.90, "regiao": "Nordeste", "cliente_email": "diego.fernandes@email.com", "status": "cancelada"},
+  {"venda_id": 5020, "data": "2026-01-13", "produto": "Tablet 10", "quantidade": 2, "preco_unitario": 1499.00, "regiao": "Norte", "cliente_email": "isabela.pinto@email.com", "status": "concluida"}
+]
