@@ -2,10 +2,10 @@
 venv/
 
 # Dados brutos e processados (não versionamos dados em projetos reais)
-data/raw/*
-data/processed/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
+#data/raw/*
+#data/processed/*
+#!data/raw/.gitkeep
+#!data/processed/.gitkeep
 
 # Logs
 logs/*
