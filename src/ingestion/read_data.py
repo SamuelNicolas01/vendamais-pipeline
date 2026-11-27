@@ -1,17 +1,28 @@
 # src/ingestion/read_data.py
 
+from pathlib import Path
+
 import pandas as pd
+
+
+RAIZ_PROJETO = Path(__file__).resolve().parents[2]
 
 
 def ler_vendas_lojas(caminho: str = "data/raw/vendas_lojas.csv") -> pd.DataFrame:
     """Lê o arquivo CSV de vendas das lojas físicas."""
-    df = pd.read_csv(caminho)
+    caminho_arquivo = Path(caminho)
+    if not caminho_arquivo.is_absolute():
+        caminho_arquivo = RAIZ_PROJETO / caminho_arquivo
+    df = pd.read_csv(caminho_arquivo)
     return df
 
 
 def ler_vendas_ecommerce(caminho: str = "data/raw/vendas_ecommerce.json") -> pd.DataFrame:
     """Lê o arquivo JSON de vendas do e-commerce."""
-    df = pd.read_json(caminho)
+    caminho_arquivo = Path(caminho)
+    if not caminho_arquivo.is_absolute():
+        caminho_arquivo = RAIZ_PROJETO / caminho_arquivo
+    df = pd.read_json(caminho_arquivo)
     return df
 
 
